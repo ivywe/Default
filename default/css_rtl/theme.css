@@ -4,3 +4,9 @@
  background:#efefef !important;
 }
 
+.uk-form-row + .uk-form-row {margin-top: 8px;}
+
+.uk-navbar-nav > li > a[href='#'],
+.uk-navbar-nav > li > a[href=''] {
+cursor: default;
+}

@@ -3,5 +3,14 @@
 .gl-hover{
  background:#efefef !important;
 }
+.gl-hover img.gl-edit:hover{
+ filter:alpha(opacity=80);
+ opacity:0.8;
+}
 
 .uk-form-row + .uk-form-row {margin-top: 8px;}
+
+.uk-navbar-nav > li > a[href='#'],
+.uk-navbar-nav > li > a[href=''] {
+cursor: default;
+}
