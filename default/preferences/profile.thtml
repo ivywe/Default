@@ -46,11 +46,11 @@
         </div>
         <div class="uk-form-row">
             <label class="uk-form-label" for="profile-email">{lang_email}</label>
-            <div class="uk-form-controls"><input type="text" maxlength="96" value="{email_value}" name="email" type="email" id="profile-email" class="uk-form-width-medium" aria-describedby="pe-profile-d1"{xhtml}></div>
+            <div class="uk-form-controls"><input type="text" maxlength="96" value="{email_value}" name="email" type="text" id="profile-email" class="uk-form-width-medium" aria-describedby="pe-profile-d1"{xhtml}></div>
         </div>
         <div class="uk-form-row">
             <label class="uk-form-label" for="profile-email_conf">{lang_email_conf}</label>
-            <div class="uk-form-controls"><input type="text" maxlength="96" value="{email_value}" name="email_conf" type="email" id="profile-email_conf" class="uk-form-width-medium"{xhtml}>
+            <div class="uk-form-controls"><input type="text" maxlength="96" value="{email_value}" name="email_conf" type="text" id="profile-email_conf" class="uk-form-width-medium"{xhtml}>
                 <span class="uk-form-help-inline" id="pe-profile-d1">{lang_email_text}</span>
             </div>
         </div>
