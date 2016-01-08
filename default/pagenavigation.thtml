@@ -1,6 +1,6 @@
 {# begin {templatelocation} #}
 
-<ul class="uk-pagination uk-margin-large-top">{!if message}<li class="uk-margin-top">{message}</li>{!endif}
+<ul class="uk-pagination uk-margin-large-top uk-margin-bottom ">{!if message}<li class="uk-margin-top">{message}</li>{!endif}
 
 <li{!if start_first_anchortag}{!else} class="uk-disabled"{!endif}>{!if start_first_anchortag}{!else}<span>{!endif}{start_first_anchortag}<i class="uk-icon-angle-double-left"></i>{end_first_anchortag}{!if start_first_anchortag}{!else}</span>{!endif}</li>
 <li{!if start_previous_anchortag}{!else} class="uk-disabled"{!endif}>{!if start_previous_anchortag}{!else}<span>{!endif}{start_previous_anchortag}<i class="uk-icon-angle-left"></i>{end_previous_anchortag}{!if start_previous_anchortag}{!else}</span>{!endif}</li>
