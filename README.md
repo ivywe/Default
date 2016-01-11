@@ -1,6 +1,6 @@
 # Default
 
-<h1>Geeklog 2.1.1 Default Geeklog Theme</h1>
+<h1>Horizon: Geeklog 2.1.1 Default Geeklog Theme</h1>
 
 <p>Geeklog theme using HTML5 + CSS 3.0 + CSS Frontend framework UIkit and eliminate table tags.<br>
 This theme is adopted the Responsive Web Design.<br>
